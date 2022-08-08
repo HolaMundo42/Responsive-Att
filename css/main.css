@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+@media screen and (max-width:480px) {
+    .navbar {display:none}
+}
+
+@media screen and (min-width:481px){
+    .navbar-mobile {display:none;}
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+
+    background-color: #CDF5F6;
+    margin: 0;
+    padding: 0;
+}
+
+
+li{
+    overflow: hidden;
+    list-style: none;
+    display: inline;
+    font-size: large;
+    margin: 5%;
+
+}
+
+.navbar li{
+    text-align: left;
+}
+
+.navbar-mobile li{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-right: 5%;
+    }
