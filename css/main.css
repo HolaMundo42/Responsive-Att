@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:700px) {
     .navbar {display:none}
 }
 
-@media screen and (min-width:481px){
+@media screen and (min-width:701px){
     .navbar-mobile {display:none;}
 }
 
@@ -15,15 +15,29 @@ body{
     background-color: #CDF5F6;
     margin: 0;
     padding: 0;
+
+    justify-content: space-between;
 }
 
+a{
+    text-decoration: none;
+}
 
 li{
     overflow: hidden;
     list-style: none;
     display: inline;
-    font-size: large;
+    font-size: 165%;
     margin: 5%;
+}
+
+.navbar {
+    position: relative;
+    z-index: 10;
+    background-color: rgb(250, 235, 215);
+    box-shadow: rgba(173, 85, 34, 0.35) 0px 1px 10px;
+    padding: 2% 0%;
+    margin-top: 0%;
 
 }
 
@@ -31,9 +45,17 @@ li{
     text-align: left;
 }
 
+
 .navbar-mobile li{
     position: absolute;
     top: 0px;
     right: 0px;
     margin-right: 5%;
-    }
+}
+
+header{
+    position: absolute;
+    font-size: 150%;
+    margin-top: 5%;
+    margin-left: 13.5%;
+}
