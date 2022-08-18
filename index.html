@@ -1,41 +1,81 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <!-- Setup -->
-        <meta charset='utf-8'>
-        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'>
-        
-        <title>Responsive</title>
-        <link rel="icon shortcut" href="https://www.pngmart.com/files/4/Cube-PNG-Transparent-Image.png">
+<html lang="en">
+<head>
+    <!-- Setup -->
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
     
-        <!-- Metadata-->
-        <meta name="keywords" content="responsive, phone, resolution">
-        <meta name="description" content="4every1">
-        <meta name="author" content="annon">
-        <meta name="copyright" content="none">
-        
-        <!-- Linking-->
-        <script src='js/main.js'></script>
-        <link rel='stylesheet' href='css/main.css'>
-    </head>
+    <title>Wheel-IA</title>
+    <link rel="icon shortcut" href="https://static.vecteezy.com/system/resources/previews/001/193/949/non_2x/race-car-wheel-png.png ">
 
+    <!-- Metadata-->
+    <meta name="keywords" content="Wheel-IA, Wheel, AI">
+    <meta name="description" content="Wheel-IA is a Wheel with an AI">
+    <meta name="author" content="annon">
+    <meta name="copyright" content="none">
+    
+    <!-- Linking-->
+    <link rel="stylesheet" href="css/main.css">  
+    <link rel="stylesheet" href="css/waves.css">
+    
 <body>
-    <nav>
-        <ul class="navbar">
-            <li><a href="">Wheel-IA</a></li>
-            <li><a href="">Directions</a></li>
-            <li><a href="">Simulation</a></li>
-            <li><a href="">About Us</a></li>
-        </ul>
-
-        <ul class="navbar-mobile">
-            <li><img src="https://cdn-icons-png.flaticon.com/128/545/545705.png" width="50px" height="50px"></li>
-        </ul>
+    <nav class="navbar">
+      <!-- LOGO -->
+      <div class="logo">Wheel-IA</div>
+      
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        
+        <!-- CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="/index.html">Home</a></li>
+          
+          <li class="services">
+                <a href="/">Services</a> 
+                <!-- DROPDOWN MENU -->
+                <ul class="dropdown">
+                    <li><a href="/">Directions </a></li>
+                    <li><a href="/">Simulation </a></li>
+                </ul>
+          </li>
+        
+          <li><a href="/about.html">About</a></li>
+        
+          <li><a href="/">Contact</a></li>
+        </div>
+      </ul>
     </nav>
-    <header>
-        <h1 class="Title">Wheel-IA : Lorem ipsum dolor sit.</h1>
-        <p id="catchphrase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident possimus officiis maxime atque fuga sint!<p>
+    <header class="container">
+      <div>
+        <h1>Wheel-IA</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum blanditiis sit animi corrupti cupiditate id ducimus fugit consequuntur quis odit!</p>
+      </div>
+      <div class="carr">
+        <img class="car" src="https://www.chevrolet.com.ar/content/dam/chevrolet/mercosur/argentina/espanol/index/cars/cars-subcontent/06-images/cruze-rs.png?imwidth=960" alt="An illustration showing a Wheel-IA car, kinda." loading="lazy">
+      </div>
     </header>
-</body>
-</html>
+    
+  <!--Waves Start-->
+  <div class="wavess">
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    </defs>
+    <g class="parallax">
+      <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(0,128,128,0.7" />
+      <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(0,128,128,0.5)" />
+      <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(0,128,128,0.3)" />
+      <use xlink:href="#gentle-wave" x="48" y="7" fill="rgb(0, 128, 128)" />
+    </g>
+    </svg>
+  </div>
+  <!--Waves end-->
+  
+  </body>
+<html>
