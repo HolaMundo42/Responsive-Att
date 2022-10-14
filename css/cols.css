@@ -1,0 +1,38 @@
+.button-container {
+    
+    width: 420px;
+    height: auto;  
+
+    background: gray;
+    background-image: url("https://cdn3.f-cdn.com/contestentries/1746454/29974687/5e71ca9c04008_thumb900.jpg");
+    background-size: cover;
+
+    overflow-y: auto;
+    margin: 25px;
+}
+
+.button-container > a {
+    width: 30px;
+    height: 30px;
+    float: left;
+    background: lightgray;   
+    margin: 5px;
+}
+
+.button{
+    opacity: 15%;
+}
+
+@media(max-width:375px){
+    .button-container {
+        width: 375px;
+        margin: 0;
+    }
+}
+
+@media(max-width:360px){
+    .button-container {
+        width: 360px;
+        margin: 0;
+    }
+}
