@@ -1,23 +1,33 @@
+body{
+    background: #528f8f;
+}
+
 .button-container {
     
-    width: 420px;
+    width: 1280px;
     height: auto;  
 
     background: gray;
     background-image: url("https://cdn3.f-cdn.com/contestentries/1746454/29974687/5e71ca9c04008_thumb900.jpg");
     background-size: cover;
+    margin-top: 110px;
+    margin-left: 25px;
 
     overflow-y: auto;
-    margin: 25px;
 }
 
 .button-container > a {
-    width: 30px;
-    height: 30px;
+    width: 12.9px;
+    height: 10px;
     float: left;
-    background: lightgray;   
-    margin: 5px;
+    background: lightgray;
 }
+
+.button-container > a:hover {
+    background: blue;
+    opacity: 90%;   
+}
+
 
 .button{
     opacity: 15%;
@@ -36,3 +46,24 @@
         margin: 0;
     }
 }
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #4c9e9e #008080;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #008080;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #4c9e9e;
+    border-radius: 15px;
+    border: 3px solid #008080;
+  }
