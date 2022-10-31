@@ -5,10 +5,10 @@ body{
 .button-container {
     
     width: 1280px;
-    height: auto;  
+    height: fit-content;  
 
     background: gray;
-    background-image: url("https://cdn3.f-cdn.com/contestentries/1746454/29974687/5e71ca9c04008_thumb900.jpg");
+    background-image: url('https://assetstorev1-prd-cdn.unity3d.com/package-screenshot/49b7086a-eace-46c6-bbef-fe8ef82715e5_scaled.jpg');
     background-size: cover;
     margin-top: 110px;
     margin-left: 25px;
@@ -28,24 +28,19 @@ body{
     opacity: 90%;   
 }
 
+p{
+  margin-top: 5em;
+  width: 8em;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: larger;
+  text-align: center
+}
 
 .button{
     opacity: 15%;
 }
 
-@media(max-width:375px){
-    .button-container {
-        width: 375px;
-        margin: 0;
-    }
-}
-
-@media(max-width:360px){
-    .button-container {
-        width: 360px;
-        margin: 0;
-    }
-}
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   * {
